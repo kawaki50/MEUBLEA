@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEUBLEA</title>
+    <!-- Latest compiled and minified CSS -->
+    <!-- https://xstore.8theme.com/demos/hosting/-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="storeproduct.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default navbar-static-top" role="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-md-3">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="/index.html"><img src="images/logo.png"  class="logo"></a>
+                        </div>
+                    </div>
+    
+                    <div class="col-xs-12 col-md-6">
+                        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
+                            <ul class="nav navbar-nav navbar-center">
+                                <li><a class="" href="/storeshop/homeshop.html">Nos top catégories</a></li>
+                                <li><a class="" href="/storeshop/New-collection.html">New collection</a></li>
+                                <li><a class="" href="/storeshop/top-vente.html">Top vente </a></li>
+                                <li><a class="" href="/storeshop/promotion.html">Promotion</a></li>
+                                <li><a class="" href="/storeshop/location.html">Location</a></li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="col-xs-6 col-md-3">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="navbar-services">
+                            <a href="/storeshop/logincompte.html"><i class="fa fa-user"></i><p>Your Account</p></a>
+                            <a href="/storeshop/livraison.html" class="btn btn-secondary"><i class="fa fa-truck"></i><p>Dealer Area</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="head-search">
+            <div class="container">
+                <div class="row">
+                    
+                        <div class="col-xs-2 col-sm-1 col-md-1 col-lg-2">
+                            <div class="dropdown btn-category">
+                                <a class="buttonselect" href="#" data-toggle="dropdown" aria-expanded="false"><span>Categories</span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><div class="icon icon-pc icon--dropdown"></div>Salons</a></li>
+                                    <li><a href="#"><div class="icon icon-pc icon--dropdown"></div>Meubles</a></li>
+                                    <li><a href="#"><div class="icon icon-pc icon--dropdown"></div>Canapés</a></li>
+                                    <li><a href="#"><div class="icon icon-pc icon--dropdown"></div>Literie</a></li>
+                                    <li><a href="#"><div class="icon icon-pc icon--dropdown"></div>Déco</a></li>
+                                    <li><a href="#"><div class="icon icon-pc icon--dropdown"></div>Chaises</a></li>
+                                    <li><a href="#"><div class="icon icon-pc icon--dropdown"></div>Modulaires</a></li>
+                                    <li><a href="#"><div class="icon icon-pc icon--dropdown"></div>Promotion</a></li>
+                                    <li><a href="#"><div class="icon icon-pc icon--dropdown"></div>salle a manger</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 col-lg-2 head-contact">
+                            <div class="icon-call"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                            <div class="contact-txt">
+                                <span>contact us </span><br>0522415598
+                            </div>
+                        </div>
+                        <div class="col-xs-7 col-sm-5 col-md-6 col-lg-6 pr0">
+                            <form action="" id="" class="search-products">
+                                <div class="input-group">
+                                    <input class="input-big" type="text" name="x" placeholder="What are you looking for?">
+                                    <div class="input-group-btn search-panel">
+                                        <div class="form-group">
+                                           
+                                                <option value="cat0">All categories</option>
+                                                <option value="cat1">Category</option>
+                                                <option value="cat2">Category</option>
+                                                <option value="cat3">Category</option>
+                                                <option value="cat4">Category</option>
+                                                <option value="cat5">Category</option>
+                                                <option value="cat6">Category</option>
+                                                <option value="cat7">Category</option>
+                                                <option value="cat8">Category</option>
+                                                <option value="cat9">Category</option>
+                                                <option value="cat10">Category</option>
+                                                <option value="cat11">Category</option>
+                                                <option value="cat12">Category</option>
+                                            </select>
+                                        </div> 
+                                    </div>
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-search" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-2">
+                            <div class="shop-icons">
+                                <div class="row">
+    
+                                    <div class="col-xs-6 col-sm-6 preferiti text-right">
+                                        <a href="#" id="likedIcon">
+                                            <div class="icon"><i class="fa fa-heart" aria-hidden="true"></i></div>
+                                            <div class="num2" id="likedCount">0</div>
+                                        </a>
+                                        
+                                    </div>
+                                    
+                                    <div class="col-xs-6 col-sm-6 cart dropdown text-right">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                                <div class="bag">
+                                                    <div class="icon"><i class="fa fa-shopping-bag" aria-hidden="true"></i></div>
+                                                    <div class="num">4</div>
+                                                </div>
+                                            </a>
+                                            <ul class="dropdown-menu dropdown-cart" role="menu">
+                                                <li>
+                                                    <span class="item">
+                                                        <span class="item-left">
+                                                            <img src="http://via.placeholder.com/40x40" alt="">
+                                                            <span class="item-info">
+                                                                <span>Title</span>
+                                                                <span>23,00 €</span>
+                                                            </span>
+                                                        </span>
+                                                        <span class="item-right">
+                                                            <button class="btn btn-xs btn-danger pull-right"><i class="fa fa-times"></i></button>
+                                                        </span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="item">
+                                                        <span class="item-left">
+                                                            <img src="http://via.placeholder.com/40x40" alt="">
+                                                            <span class="item-info">
+                                                                <span>Title</span>
+                                                                <span>3,00 €</span>
+                                                            </span>
+                                                        </span>
+                                                        <span class="item-right">
+                                                            <button class="btn btn-xs btn-danger pull-right"><i class="fa fa-times"></i></button>
+                                                        </span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="item">
+                                                        <span class="item-left">
+                                                            <img src="http://via.placeholder.com/40x40" alt="">
+                                                            <span class="item-info">
+                                                                <span>Title</span>
+                                                                <span>123,00 €</span>
+                                                            </span>
+                                                        </span>
+                                                        <span class="item-right">
+                                                            <button class="btn btn-xs btn-danger pull-right"><i class="fa fa-times"></i></button>
+                                                        </span>
+                                                    </span>
+                                                </li>
+                                                <li class="divider"></li>
+                                                <li><a class="text-center" href="#">See Cart</a></li>
+                                            </ul>
+                                    
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!--------------------------------------navbar & header------------------------------------->
+        <br><br>
+        <div class="wrapper">
+            <div class="header">
+              <h2>Product Order Form</h2>
+            </div>
+            <div class="flex-container">
+                <form id="order-form" action="" method="">
+
+                <label>
+                  <span class="first-name">First Name <span class="mandatory">*</span></span>
+                  <input type="text" name="first-name">
+                </label>
+                <label>
+                  <span class="last-name">Last Name <span class="mandatory">*</span></span>
+                  <input type="text" name="last-name">
+                </label>
+                <label>
+                  <span>Company Name (Optional)</span>
+                  <input type="text" name="company-name">
+                </label>
+                <label>
+                  <span>Country <span class="mandatory">*</span></span>
+                  <select name="country">
+                    <option value="select">Select a country...</option>
+                    <option value="AFG">Afghanistan</option>
+                    <option value="ALA">Åland Islands</option>
+                    <option value="ALB">Albania</option>
+                    <option value="DZA">Algeria</option>
+                    <option value="ASM">American Samoa</option>
+                    <option value="AND">Andorra</option>
+                    <option value="AGO">Angola</option>
+                    <option value="AIA">Anguilla</option>
+                    <option value="ATA">Antarctica</option>
+                    <option value="ATG">Antigua and Barbuda</option>
+                    <option value="ARG">Argentina</option>
+                    <option value="ARM">Armenia</option>
+                    <option value="ABW">Aruba</option>
+                    <option value="AUS">Australia</option>
+                    <option value="AUT">Austria</option>
+                    <option value="AZE">Azerbaijan</option>
+                    <option value="BHS">Bahamas</option>
+                    <option value="BHR">Bahrain</option>
+                    <option value="BGD">Bangladesh</option>
+                    <option value="BRB">Barbados</option>
+                    <option value="BLR">Belarus</option>
+                    <option value="BEL">Belgium</option>
+                    <option value="BLZ">Belize</option>
+                    <option value="BEN">Benin</option>
+                    <option value="BMU">Bermuda</option>
+                    <option value="BTN">Bhutan</option>
+                    <option value="BOL">Bolivia, Plurinational State of</option>
+                    <option value="BES">Bonaire, Sint Eustatius and Saba</option>
+                    <option value="BIH">Bosnia and Herzegovina</option>
+                    <option value="BWA">Botswana</option>
+                    <option value="BVT">Bouvet Island</option>
+                    <option value="BRA">Brazil</option>
+                    <option value="IOT">British Indian Ocean Territory</option>
+                    <option value="BRN">Brunei Darussalam</option>
+                    <option value="BGR">Bulgaria</option>
+                    <option value="BFA">Burkina Faso</option>
+                    <option value="BDI">Burundi</option>
+                    <option value="KHM">Cambodia</option>
+                    <option value="CMR">Cameroon</option>
+                    <option value="CAN">Canada</option>
+                    <option value="CPV">Cape Verde</option>
+                    <option value="CYM">Cayman Islands</option>
+                    <option value="CAF">Central African Republic</option>
+                    <option value="TCD">Chad</option>
+                    <option value="CHL">Chile</option>
+                    <option value="CHN">China</option>
+                    <option value="CXR">Christmas Island</option>
+                    <option value="CCK">Cocos (Keeling) Islands</option>
+                    <option value="COL">Colombia</option>
+                    <option value="COM">Comoros</option>
+                    <option value="COG">Congo</option>
+                    <option value="COD">Congo, the Democratic Republic of the</option>
+                    <option value="COK">Cook Islands</option>
+                    <option value="CRI">Costa Rica</option>
+                    <option value="CIV">Côte d'Ivoire</option>
+                    <option value="HRV">Croatia</option>
+                    <option value="CUB">Cuba</option>
+                    <option value="CUW">Curaçao</option>
+                    <option value="CYP">Cyprus</option>
+                    <option value="CZE">Czech Republic</option>
+                    <option value="DNK">Denmark</option>
+                    <option value="DJI">Djibouti</option>
+                    <option value="DMA">Dominica</option>
+                    <option value="DOM">Dominican Republic</option>
+                    <option value="ECU">Ecuador</option>
+                    <option value="EGY">Egypt</option>
+                    <option value="SLV">El Salvador</option>
+                    <option value="GNQ">Equatorial Guinea</option>
+                    <option value="ERI">Eritrea</option>
+                    <option value="EST">Estonia</option>
+                    <option value="ETH">Ethiopia</option>
+                    <option value="FLK">Falkland Islands (Malvinas)</option>
+                    <option value="FRO">Faroe Islands</option>
+                    <option value="FJI">Fiji</option>
+                    <option value="FIN">Finland</option>
+                    <option value="FRA">France</option>
+                    <option value="GUF">French Guiana</option>
+                    <option value="PYF">French Polynesia</option>
+                    <option value="ATF">French Southern Territories</option>
+                    <option value="GAB">Gabon</option>
+                    <option value="GMB">Gambia</option>
+                    <option value="GEO">Georgia</option>
+                    <option value="DEU">Germany</option>
+                    <option value="GHA">Ghana</option>
+                    <option value="GIB">Gibraltar</option>
+                    <option value="GRC">Greece</option>
+                    <option value="GRL">Greenland</option>
+                    <option value="GRD">Grenada</option>
+                    <option value="GLP">Guadeloupe</option>
+                    <option value="GUM">Guam</option>
+                    <option value="GTM">Guatemala</option>
+                    <option value="GGY">Guernsey</option>
+                    <option value="GIN">Guinea</option>
+                    <option value="GNB">Guinea-Bissau</option>
+                    <option value="GUY">Guyana</option>
+                    <option value="HTI">Haiti</option>
+                    <option value="HMD">Heard Island and McDonald Islands</option>
+                    <option value="VAT">Holy See (Vatican City State)</option>
+                    <option value="HND">Honduras</option>
+                    <option value="HKG">Hong Kong</option>
+                    <option value="HUN">Hungary</option>
+                    <option value="ISL">Iceland</option>
+                    <option value="IND">India</option>
+                    <option value="IDN">Indonesia</option>
+                    <option value="IRN">Iran, Islamic Republic of</option>
+                    <option value="IRQ">Iraq</option>
+                    <option value="IRL">Ireland</option>
+                    <option value="IMN">Isle of Man</option>
+                    <option value="ISR">Israel</option>
+                    <option value="ITA">Italy</option>
+                    <option value="JAM">Jamaica</option>
+                    <option value="JPN">Japan</option>
+                    <option value="JEY">Jersey</option>
+                    <option value="JOR">Jordan</option>
+                    <option value="KAZ">Kazakhstan</option>
+                    <option value="KEN">Kenya</option>
+                    <option value="KIR">Kiribati</option>
+                    <option value="PRK">Korea, Democratic People's Republic of</option>
+                    <option value="KOR">Korea, Republic of</option>
+                    <option value="KWT">Kuwait</option>
+                    <option value="KGZ">Kyrgyzstan</option>
+                    <option value="LAO">Lao People's Democratic Republic</option>
+                    <option value="LVA">Latvia</option>
+                    <option value="LBN">Lebanon</option>
+                    <option value="LSO">Lesotho</option>
+                    <option value="LBR">Liberia</option>
+                    <option value="LBY">Libya</option>
+                    <option value="LIE">Liechtenstein</option>
+                    <option value="LTU">Lithuania</option>
+                    <option value="LUX">Luxembourg</option>
+                    <option value="MAC">Macao</option>
+                    <option value="MKD">Macedonia, the former Yugoslav Republic of</option>
+                    <option value="MDG">Madagascar</option>
+                    <option value="MWI">Malawi</option>
+                    <option value="MYS">Malaysia</option>
+                    <option value="MDV">Maldives</option>
+                    <option value="MLI">Mali</option>
+                    <option value="MLT">Malta</option>
+                    <option value="MHL">Marshall Islands</option>
+                    <option value="MTQ">Martinique</option>
+                    <option value="MRT">Mauritania</option>
+                    <option value="MUS">Mauritius</option>
+                    <option value="MYT">Mayotte</option>
+                    <option value="MEX">Mexico</option>
+                    <option value="FSM">Micronesia, Federated States of</option>
+                    <option value="MDA">Moldova, Republic of</option>
+                    <option value="MCO">Monaco</option>
+                    <option value="MNG">Mongolia</option>
+                    <option value="MNE">Montenegro</option>
+                    <option value="MSR">Montserrat</option>
+                    <option value="MAR">Morocco</option>
+                    <option value="MOZ">Mozambique</option>
+                    <option value="MMR">Myanmar</option>
+                    <option value="NAM">Namibia</option>
+                    <option value="NRU">Nauru</option>
+                    <option value="NPL">Nepal</option>
+                    <option value="NLD">Netherlands</option>
+                    <option value="NCL">New Caledonia</option>
+                    <option value="NZL">New Zealand</option>
+                    <option value="NIC">Nicaragua</option>
+                    <option value="NER">Niger</option>
+                    <option value="NGA">Nigeria</option>
+                    <option value="NIU">Niue</option>
+                    <option value="NFK">Norfolk Island</option>
+                    <option value="MNP">Northern Mariana Islands</option>
+                    <option value="NOR">Norway</option>
+                    <option value="OMN">Oman</option>
+                    <option value="PAK">Pakistan</option>
+                    <option value="PLW">Palau</option>
+                    <option value="PSE">Palestine, State of</option>
+                    <option value="PAN">Panama</option>
+                    <option value="PNG">Papua New Guinea</option>
+                    <option value="PRY">Paraguay</option>
+                    <option value="PER">Peru</option>
+                    <option value="PHL">Philippines</option>
+                    <option value="PCN">Pitcairn</option>
+                    <option value="POL">Poland</option>
+                    <option value="PRT">Portugal</option>
+                    <option value="PRI">Puerto Rico</option>
+                    <option value="QAT">Qatar</option>
+                    <option value="REU">Réunion</option>
+                    <option value="ROU">Romania</option>
+                    <option value="RUS">Russian Federation</option>
+                    <option value="RWA">Rwanda</option>
+                    <option value="BLM">Saint Barthélemy</option>
+                    <option value="SHN">Saint Helena, Ascension and Tristan da Cunha</option>
+                    <option value="KNA">Saint Kitts and Nevis</option>
+                    <option value="LCA">Saint Lucia</option>
+                    <option value="MAF">Saint Martin (French part)</option>
+                    <option value="SPM">Saint Pierre and Miquelon</option>
+                    <option value="VCT">Saint Vincent and the Grenadines</option>
+                    <option value="WSM">Samoa</option>
+                    <option value="SMR">San Marino</option>
+                    <option value="STP">Sao Tome and Principe</option>
+                    <option value="SAU">Saudi Arabia</option>
+                    <option value="SEN">Senegal</option>
+                    <option value="SRB">Serbia</option>
+                    <option value="SYC">Seychelles</option>
+                    <option value="SLE">Sierra Leone</option>
+                    <option value="SGP">Singapore</option>
+                    <option value="SXM">Sint Maarten (Dutch part)</option>
+                    <option value="SVK">Slovakia</option>
+                    <option value="SVN">Slovenia</option>
+                    <option value="SLB">Solomon Islands</option>
+                    <option value="SOM">Somalia</option>
+                    <option value="ZAF">South Africa</option>
+                    <option value="SGS">South Georgia and the South Sandwich Islands</option>
+                    <option value="SSD">South Sudan</option>
+                    <option value="ESP">Spain</option>
+                    <option value="LKA">Sri Lanka</option>
+                    <option value="SDN">Sudan</option>
+                    <option value="SUR">Suriname</option>
+                    <option value="SJM">Svalbard and Jan Mayen</option>
+                    <option value="SWZ">Swaziland</option>
+                    <option value="SWE">Sweden</option>
+                    <option value="CHE">Switzerland</option>
+                    <option value="SYR">Syrian Arab Republic</option>
+                    <option value="TWN">Taiwan, Province of China</option>
+                    <option value="TJK">Tajikistan</option>
+                    <option value="TZA">Tanzania, United Republic of</option>
+                    <option value="THA">Thailand</option>
+                    <option value="TLS">Timor-Leste</option>
+                    <option value="TGO">Togo</option>
+                    <option value="TKL">Tokelau</option>
+                    <option value="TON">Tonga</option>
+                    <option value="TTO">Trinidad and Tobago</option>
+                    <option value="TUN">Tunisia</option>
+                    <option value="TUR">Turkey</option>
+                    <option value="TKM">Turkmenistan</option>
+                    <option value="TCA">Turks and Caicos Islands</option>
+                    <option value="TUV">Tuvalu</option>
+                    <option value="UGA">Uganda</option>
+                    <option value="UKR">Ukraine</option>
+                    <option value="ARE">United Arab Emirates</option>
+                    <option value="GBR">United Kingdom</option>
+                    <option value="USA">United States</option>
+                    <option value="URY">Uruguay</option>
+                    <option value="UZB">Uzbekistan</option>
+                    <option value="VUT">Vanuatu</option>
+                    <option value="VEN">Venezuela, Bolivarian Republic of</option>
+                    <option value="VNM">Viet Nam</option>
+                    <option value="WLF">Wallis and Futuna</option>
+                    <option value="ESH">Western Sahara</option>
+                    <option value="YEM">Yemen</option>
+                    <option value="ZMB">Zambia</option>
+                    <option value="ZWE">Zimbabwe</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Street Address <span class="mandatory">*</span></span>
+                  <input type="text" name="street-address" placeholder="House number and street name" required>
+                </label>
+                <label>
+                  <span>&nbsp;</span>
+                  <input type="text" name="apartment" placeholder="Apartment, suite, unit etc. (optional)">
+                </label>
+                <label>
+                  <span>Town / City <span class="mandatory">*</span></span>
+                  <input type="text" name="town-city">
+                </label>
+                <label>
+                  <span>State / County <span class="mandatory">*</span></span>
+                  <input type="text" name="state-county">
+                </label>
+                <label>
+                  <span>Postcode / ZIP <span class="mandatory">*</span></span>
+                  <input type="text" name="postcode-zip">
+                </label>
+                <label>
+                  <span>Phone <span class="mandatory">*</span></span>
+                  <input type="tel" name="phone">
+                </label>
+                <label>
+                  <span>Email Address <span class="mandatory">*</span></span>
+                  <input type="email" name="email-address">
+                </label>
+              </form>
+              <div class="order-summary">
+                <table>
+                  <tr>
+                    <th colspan="2">Your order</th>
+                  </tr>
+                  <tr>
+                    <td>Product Name x 2(Qty)</td>
+                    <td>$88.00</td>
+                  </tr>
+                  <tr>
+                    <td>Subtotal</td>
+                    <td>$88.00</td>
+                  </tr>
+                  <tr>
+                    <td>Shipping</td>
+                    <td>Free shipping</td>
+                  </tr>
+                </table><br>
+                <div>
+                  <input type="radio" name="payment-method" value="bank-transfer" checked> Direct Bank Transfer
+                </div>
+                <p>
+                    Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
+                </p>
+                <div>
+                  <input type="radio" name="payment-method" value="cod"> Cash on Delivery
+                </div>
+                <div>
+                  <input type="radio" name="payment-method" value="paypal"> Paypal <span>
+                  <img src="https://www.logo.wine/a/logo/PayPal/PayPal-Logo.wine.svg" width="50" height="20" alt="PayPal Logo">
+                  </span>
+                </div>
+                <div>
+                  <input type="checkbox" name="terms-conditions" value="terms"> I have read and agree to the <a href="#">terms and conditions</a> <span class="mandatory">*</span>
+                </div>
+                 <a href="/PROJET/paiement/detail-product/paiement.html"><input  type="submit" value="Place Order"></a>
+              </div>
+            </div>
+          </div>
+          
+       
+        <br>
+        <br>
+       
+        <br><br>
+        
+        
+        
+        <!-- ICONS -->
+        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    
+
+    
+
+    <!--SERVICES-->
+
+
+
+
+
+<!--Item slider text-->
+
+
+
+
+<!-- ICONS -->
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+
+<!-- Item slider end-->
+
+
+
+<!-- BOOTSTRAP JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<!-- FONT AWESOME -->
+<script src="https://kit.fontawesome.com/4077c6ef6a.js" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+
+<!--footer -->
+
+
+<footer class="new_footer_area bg_color">
+    <div class="new_footer_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                        <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
+                        <p>Don’t miss any updates of our new templates and extensions.!</p>
+                        <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                            <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+                            <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                            <p class="mchimp-errmessage" style="display: none;"></p>
+                            <p class="mchimp-sucmessage" style="display: none;"></p>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                        <h3 class="f-title f_600 t_color f_size_18">Download</h3>
+                        <ul class="list-unstyled f_list">
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Android App</a></li>
+                            <li><a href="#">ios App</a></li>
+                            <li><a href="#">Desktop</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">My tasks</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                        <h3 class="f-title f_600 t_color f_size_18">Help</h3>
+                        <ul class="list-unstyled f_list">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Term conditions</a></li>
+                            <li><a href="#">Reporting</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Support Policy</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                        <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
+                        <div class="f_social_icon">
+                            <a href="#" class="fab fa-facebook"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                            <a href="#" class="fab fa-pinterest"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bg">
+            <div class="footer_bg_one"></div>
+            <div class="footer_bg_two"></div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-sm-7">
+                    <p class="mb-0 f_400">© cakecounter Inc.. 2019 All rights reserved.</p>
+                </div>
+                <div class="col-lg-6 col-sm-5 text-right">
+                    
+                    
+                    <p>Made with <i class="icon_heart"></i> in <a href="http://cakecounter.com" target="_blank">CakeCounter</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- ICONS -->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="storeproduct.js"></script>
+</body>
+</html>
